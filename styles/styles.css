@@ -1,3 +1,33 @@
-.popup-left-section {
-  background-color:  #00C65E;
+@font-face {
+  font-family: "TT Norms";
+  src: url(../fonts/TT-Norms-Bold.otf) format("truetype");
+  font-weight: 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TT Norms";
+  src: url(../fonts/TT-Norms-Medium.otf) format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+@font-face {
+  font-family: "TT Norms";
+  src: url(../fonts/TT-Norms-Regular.otf) format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  --font-family: "TT Norms", sans-serif;
+
+  --color-light-grey: #F7F7F7;
+  --color-med2-grey: #EFEFEF;
+  --color-medium-grey: #DADCDC;
+  --color-dark-grey: #363A45;
+  --color-dark-grey-opacity: #363A45;
+  --color-bright-green: #00C65E;
+  --color-light-orange: #FFB762;
+  --color-bright-orange: #F89358;
+  --color-light-green: #CCEFDB;
+
 }
