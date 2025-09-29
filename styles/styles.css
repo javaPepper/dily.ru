@@ -32,6 +32,7 @@
 }
 
 .popup-phone-num {
+  margin-inline: auto;
   display: flex;
   width: 1440px;
   height: 900px;
@@ -98,4 +99,72 @@
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.5px;
+}
+.popup-right-section {
+  padding: 214px 255px 20px 255px;
+  position: relative;
+}
+.popup-right-top-img {
+  position: absolute;
+  top: 48px;
+  right: 129px;
+}
+.popup-left-top-img {
+  position: absolute;
+  top: 75px;
+  left: 97px;
+}
+.popup-mid-left-img {
+  position: absolute;
+  top: 450px;
+  left: 17px;
+}
+.popup-mid-right-img {
+  position: absolute;
+  top: 313px;
+  right: -17px;
+}
+.popup-bottom-left-img {
+  position: absolute;
+  top: 741px;
+  left: 78px;
+}
+.popup-bottom-right-img {
+  position: absolute;
+  top: 811px;
+  right: 0;
+}
+.popup-rs-h2 {
+  color: #363A45;
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+.popup-rs-login-description {
+  color: #262626;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.popup-rs-input-tel {
+  display: flex;
+  width: 304px;
+  padding: 10px 15px;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid var(--color-medium-grey);
+  background: #FFF;
+}
+.popup-rs-input-tel::placeholder {
+  color: #DADCDC;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
